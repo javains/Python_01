@@ -43,10 +43,10 @@ print('-'*70)
 
 # exec.py
 # from mylib import *
-#from mylib import *
+#import myCalc
+#from myCalc import (add)
 
-#import mymodule 
-#i = add(10,20)
+#i = myCalc.add(10,20)
 # i = substract(20,5)
 
 
