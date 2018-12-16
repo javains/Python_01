@@ -1,0 +1,23 @@
+
+파이썬으로 몽고DB에 데이터를 입력하거나, 검색, 업데이트, 삭제를 수행할 수 있다.
+MongoDB의 Python용 드라이버는 pymongo 이다.
+
+1. pymongo 드라이버 설치
+   c:\> pip install pymongo 
+
+2.  pymongo 이용하여 MongoDB에 연결하기
+    import pymongo
+   connection = pymongo.MongoClient("localhost",27017)
+
+3.    MongoDB에 데이터 삽입
+    db = connection.TestDB
+    collection = db.testCollection
+    collection.insert({"이름":"홍길동"});
+
+
+데이터 업데이트 예제 코드
+    db = connection.TestDB
+    collection = db.testCollection
+    collection.insert({"이름":"홍길동"});
+
+
